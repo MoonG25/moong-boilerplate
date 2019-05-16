@@ -1,0 +1,9 @@
+{
+  "platform": "platform",
+  "company": "company",
+  "partnership": "partnership",
+  "support": "support",
+  "login": "login",
+  "logout": "logout",
+  "register": "register"
+}
