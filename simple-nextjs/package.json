@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 40000",
+    "build": "next build",
+    "prestart": "next build",
+    "start": "next start -p 40000",
+    "dev:express": "nodemon server.js",
+    "prestart:express": "next build",
+    "start:express": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "express": "^4.16.4",
+    "next": "^8.1.0",
+    "next-i18next": "^0.39.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "nodemon": "^1.19.0"
+  }
+}
